@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
-import './Dashboard.css' // 🔗 Link the CSS file
+import './Dashboard.css' 
 
 const Dashboard = () => {
   const [originalUrl, setOriginalUrl] = useState('')
